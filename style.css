@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #001e4d;
+    }
+.app{
+    background-color: white;
+    width: 50%;
+    margin: 100px auto 100px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 30px;
+}
+h2{
+    text-align: center;
+}
+.btn{
+    width: 90%;
+    padding: 20px;
+    display: block;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    text-align: left;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover :not(:disabled){
+    color: white;
+    background-color: black;
+}
+.btn :disabled{
+    cursor:no-drop;
+}
+#next-Btn{
+    background-color: rgb(0, 0, 39);
+    font-weight: bold;
+    font-size: 20px;
+    width: 150px;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: white;
+    cursor: pointer;
+    margin-left: 40%;
+    display: none;
+}
+.correct{
+    background-color: rgb(42, 187, 42);
+}
+.incorrect{
+    background-color: rgb(190, 32, 32);
+}
